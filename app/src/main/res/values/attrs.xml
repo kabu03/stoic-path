@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom Theme Attributes -->
+    <attr name="colorBackground" format="color" />
+    <attr name="colorText" format="color" />
+    <attr name="buttonBackground" format="color"/>
+    <attr name="buttonTextColor" format="color"/>
+    <attr name="iconColor" format="color"/>
+</resources>

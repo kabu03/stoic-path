@@ -1,0 +1,46 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/philosophersFragment">
+
+    <!-- Philosophers Fragment -->
+    <fragment
+        android:id="@+id/philosophersFragment"
+        android:name="com.example.stoicpath.fragments.PhilosophersFragment"
+        android:label="Philosophers" >
+
+        <action
+            android:id="@+id/action_philosophers_to_detail"
+            app:destination="@id/philosopherDetailFragment" />
+
+        <action
+            android:id="@+id/action_philosophers_to_daily_quote"
+            app:destination="@id/dailyQuoteFragment" />
+    </fragment>
+
+    <!-- Daily Quote Fragment -->
+    <fragment
+        android:id="@+id/dailyQuoteFragment"
+        android:name="com.example.stoicpath.fragments.DailyQuoteFragment"
+        android:label="Daily Quote">
+
+        <action
+            android:id="@+id/action_daily_quote_to_philosophers"
+            app:destination="@id/philosophersFragment" />
+    </fragment>
+
+    <!-- Philosopher Detail Fragment -->
+    <fragment
+        android:id="@+id/philosopherDetailFragment"
+        android:name="com.example.stoicpath.fragments.PhilosopherDetailFragment"
+        android:label="Philosopher Detail">
+
+        <action
+            android:id="@+id/action_detail_to_philosophers"
+            app:destination="@id/philosophersFragment" />
+
+        <action
+            android:id="@+id/action_detail_to_daily_quote"
+            app:destination="@id/dailyQuoteFragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors for Light and Dark Modes -->
+    <color name="colorPrimary">#000000</color> <!-- Primary color (black in light mode) -->
+    <color name="colorPrimaryVariant">#333333</color> <!-- Darker variant for consistency -->
+
+    <!-- Background and Text Colors -->
+    <color name="colorBackgroundLight">#FFFFFF</color> <!-- Light mode background -->
+    <color name="colorBackgroundDark">#121212</color> <!-- Dark mode background -->
+    <color name="colorTextLight">#000000</color> <!-- Light mode text color -->
+    <color name="colorTextDark">#FFFFFF</color> <!-- Dark mode text color -->
+    <color name="buttonBackground">@color/buttonBackgroundLight</color>
+    <!-- Button Colors -->
+    <color name="buttonBackgroundLight">#E0E0E0</color> <!-- Light button background -->
+    <color name="buttonBackgroundDark">#333333</color> <!-- Dark button background -->
+    <color name="buttonTextColorLight">#000000</color> <!-- Light mode button text -->
+    <color name="buttonTextColorDark">#FFFFFF</color> <!-- Dark mode button text -->
+
+    <!-- Icon Color -->
+    <color name="iconColorLight">#000000</color> <!-- Light mode icon -->
+    <color name="iconColorDark">#FFFFFF</color> <!-- Dark mode icon -->
+</resources>

@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorBackground">
+
+    <!-- Header with App Name and Dark Mode Toggle -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Stoic Path"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/darkModeToggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_dark_mode"
+            android:tint="?attr/iconColor"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="Dark Mode Toggle" />
+    </LinearLayout>
+
+    <!-- Main Content Section in the Center with Weights -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/dailyQuoteLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today’s Quote:"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:layout_marginTop="100dp"/>
+
+        <TextView
+            android:id="@+id/dailyQuoteText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INSERT DAILY QUOTE HERE"
+            android:textSize="22sp"
+            android:textColor="?attr/colorText"
+            android:gravity="center"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/dailyQuoteAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textSize="18sp"
+            android:textColor="?attr/colorText"
+            android:gravity="center"
+            android:padding="4dp" />
+    </LinearLayout>
+
+    <!-- Bottom Navigation Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="?attr/colorBackground">
+
+        <Button
+            android:id="@+id/navToDailyQuote"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Daily Quote"
+            android:textColor="?attr/buttonTextColor"
+            android:backgroundTint="@color/buttonBackground"/>
+
+        <Button
+            android:id="@+id/navToPhilosophersFromQuote"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Philosophers"
+            android:textColor="?attr/buttonTextColor"
+            android:backgroundTint="@color/buttonBackground"/>
+    </LinearLayout>
+
+</LinearLayout>

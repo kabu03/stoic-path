@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.StoicPath" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorAccent">@color/colorTextLight</item>
+
+        <!-- Background and Text Colors -->
+        <item name="android:colorBackground">@color/colorBackgroundLight</item>
+        <item name="android:textColor">@color/colorTextLight</item>
+
+        <!-- Custom Attribute Colors -->
+        <item name="colorBackground">@color/colorBackgroundLight</item>
+        <item name="colorText">@color/colorTextLight</item>
+        <item name="buttonBackground">@color/buttonBackgroundLight</item>
+        <item name="buttonTextColor">@color/buttonTextColorLight</item>
+        <item name="iconColor">@color/iconColorLight</item>
+    </style>
+</resources>

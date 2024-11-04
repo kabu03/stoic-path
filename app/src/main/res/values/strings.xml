@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Stoic Path</string>
+    <!-- Philosopher Names -->
+    <string name="name_marcus_aurelius">Marcus Aurelius</string>
+    <string name="name_seneca">Seneca</string>
+    <string name="name_epictetus">Epictetus</string>
+    <string name="name_zeno">Zeno of Citium</string>
+    <string name="name_cleanthes">Cleanthes</string>
+    <string name="name_chrysippus">Chrysippus</string>
+
+    <!-- Philosopher Descriptions -->
+    <string name="description_marcus_aurelius">"Marcus Aurelius was a Roman Emperor and philosopher known for his writings, the Meditations, which are a valuable source of Stoic philosophy."</string>
+    <string name="description_seneca">"Seneca was a Roman statesman and philosopher who applied Stoic ideas to the practical challenges of life, offering insights into resilience and self-control."</string>
+    <string name="description_epictetus">"Epictetus, a former slave, taught that freedom comes from mastering one's mind and emotions. His Discourses and Enchiridion are essential Stoic texts."</string>
+    <string name="description_zeno">"Zeno of Citium founded the Stoic school of philosophy, teaching that happiness is found in accepting the present moment and avoiding destructive emotions."</string>
+    <string name="description_cleanthes">"Cleanthes succeeded Zeno as the head of the Stoic school, emphasizing ethics and the unity of the universe governed by reason."</string>
+    <string name="description_chrysippus">"Chrysippus, known as the second founder of Stoicism, expanded on Zeno's work and established many Stoic doctrines regarding logic, ethics, and physics."</string>
+</resources>
