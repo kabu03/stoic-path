@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import com.example.stoicpath.R
+import com.example.stoicpath.utils.NotificationScheduler
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,6 +33,8 @@ class MainActivity : AppCompatActivity() {
         val navHostFragment = supportFragmentManager
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
+
+        NotificationScheduler().scheduleDailyNotification(this)
     }
 
     // Make toggleDarkMode public so it can be accessed from fragments

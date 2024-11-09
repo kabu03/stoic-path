@@ -9,10 +9,47 @@
     <string name="name_chrysippus">Chrysippus</string>
 
     <!-- Philosopher Descriptions -->
-    <string name="description_marcus_aurelius">"Marcus Aurelius was a Roman Emperor and philosopher known for his writings, the Meditations, which are a valuable source of Stoic philosophy."</string>
-    <string name="description_seneca">"Seneca was a Roman statesman and philosopher who applied Stoic ideas to the practical challenges of life, offering insights into resilience and self-control."</string>
-    <string name="description_epictetus">"Epictetus, a former slave, taught that freedom comes from mastering one's mind and emotions. His Discourses and Enchiridion are essential Stoic texts."</string>
-    <string name="description_zeno">"Zeno of Citium founded the Stoic school of philosophy, teaching that happiness is found in accepting the present moment and avoiding destructive emotions."</string>
-    <string name="description_cleanthes">"Cleanthes succeeded Zeno as the head of the Stoic school, emphasizing ethics and the unity of the universe governed by reason."</string>
-    <string name="description_chrysippus">"Chrysippus, known as the second founder of Stoicism, expanded on Zeno's work and established many Stoic doctrines regarding logic, ethics, and physics."</string>
+    <string name="description_marcus_aurelius">Marcus Aurelius was a Roman Emperor from 161 to 180 AD and a philosopher who is renowned
+        for his commitment to Stoic principles, as captured in his personal writings, Meditations. These reflections, initially meant only for his own guidance, are now a foundational work in Stoic philosophy, exploring themes such as resilience, duty, rationality, and acceptance. \n\nDuring his reign,
+        Marcus faced numerous challenges: invasions from Germanic tribes along the empire’s borders, natural calamities, and a widespread plague
+        that severely impacted Rome’s population and resources. Despite these trials, he consistently sought to embody Stoic ideals in his rule,
+        advocating for compassion, justice, and a reasoned approach to leadership.
+        \n\nHis Meditations reveal an introspective leader wrestling with the complexities of power, striving to act in harmony with nature and his moral values.
+        Marcus saw his role as emperor not as a privilege but as a duty, emphasizing the importance of self-discipline, humility, and mindfulness in public service.
+        His Stoic approach to governance, personal challenges, and ethical reflection has inspired countless individuals across the centuries,
+        making him one of history’s most revered philosopher-kings. His work continues to offer valuable insights into leadership, inner tranquility,
+        and the human experience amidst adversity.</string>
+    <string name="description_seneca">Seneca, a Roman statesman, playwright, and Stoic philosopher, is celebrated for his insightful writings that
+    explore ethics, virtue, and resilience in the face of adversity. Born around 4 BC in Corduba, Spain, he rose to prominence as an advisor to Emperor Nero,
+    though he maintained a critical stance on the moral challenges of political life. Seneca’s notable works, such as Letters to Lucilius
+    and On the Shortness of Life, provide timeless wisdom on managing emotions, confronting mortality, and cultivating inner tranquility.
+    \n\nIn his Letters, Seneca shares practical advice on overcoming anger, envy, and ambition, encouraging his readers to live in harmony with nature
+    and to seek virtue as the highest good. Despite his proximity to imperial power, Seneca’s life was marked by conflict, culminating in his forced
+    suicide in 65 AD due to political intrigue. \n\nHis writings emphasize the importance of inner freedom, the acceptance of fate,
+    and the development of resilience in adversity. Today, Seneca’s teachings remain influential, reflecting the Stoic ideal of a life committed to wisdom,
+        ethical integrity, and personal growth.</string>
+    <string name="description_epictetus">Epictetus, born into slavery in Hierapolis, Asia Minor, rose to become one of Stoicism\'s most revered philosophers. After gaining his freedom, he established a school of philosophy in Nicopolis, where he taught the principles of Stoic thought, emphasizing personal agency,
+    inner resilience, and rationality. \n\nEpictetus believed that individuals should focus on what is within their control—namely, their own thoughts, choices, and actions—while accepting external events as governed by fate. His teachings, preserved by his student Arrian in The Discourses and the
+    Enchiridion (Handbook), advocate for a life guided by reason and moral virtue. \n\nEpictetus taught that suffering results from our judgments and attachments rather than external circumstances, a view that encourages detachment and equanimity in the face of hardship. His belief in the innate dignity of every person,
+    regardless of social status, underscores Stoicism\'s universal appeal. Epictetus\'s legacy endures as a testament to the power of philosophy to transcend personal and societal limitations, offering guidance on living a purposeful, resilient, and self-disciplined life.</string>
+    <string name="description_zeno">Zeno of Citium, born around 334 BC in Cyprus, was the founder of Stoicism, a philosophical system that has profoundly
+    influenced Western thought. Initially a merchant, Zeno turned to philosophy after being shipwrecked and losing his wealth, an event that led him to Athens,
+    where he began studying with various philosophers. He synthesized ideas from earlier thinkers into a unique framework centered on virtue, rationality,
+    and living in harmony with nature. \n\nZeno taught in the Stoa Poikile (Painted Porch), from which Stoicism takes its name, advocating for a life of moral
+    integrity and inner strength. His emphasis on accepting fate and focusing on one\'s inner character became foundational to Stoic ethics. \n\nThough none of his
+    works survive, Zeno\'s ideas laid the groundwork for subsequent Stoic philosophers, who expanded and preserved his teachings. His legacy endures as a model
+        of resilience, rationality, and the belief that true happiness is found in virtue and wisdom, not external circumstances.</string>
+    <string name="description_cleanthes">Cleanthes of Assos, a former boxer and philosopher, succeeded Zeno as the head of the Stoic school in Athens.
+    Despite humble beginnings and financial struggles, Cleanthes’s dedication to Stoicism was profound; he reportedly worked at night to support his studies.
+    His Hymn to Zeus is one of the most celebrated Stoic texts, highlighting the Stoic belief in a rational, divine order governing the universe. Cleanthes expanded
+    on Zeno\'s teachings, emphasizing the Stoic ideal of living in harmony with nature and accepting one’s fate. \n\nHe taught that understanding the cosmos and our place
+    within it leads to wisdom and inner peace. Although many of Cleanthes’s works have been lost, his contributions to Stoicism provided an essential bridge between
+    Zeno’s founding doctrines and the refinements introduced by his successor, Chrysippus. Cleanthes’s life exemplified the Stoic virtues of persistence, humility, and
+        commitment to philosophical inquiry, embodying the Stoic belief that wisdom can be achieved through perseverance and adherence to virtue.</string>
+    <string name="description_chrysippus">Chrysippus of Soli was a key figure in Stoicism, known as its “second founder” due to his extensive contributions
+    and systematization of Stoic thought. \n\nBorn around 279 BC, he studied under Cleanthes and significantly developed Stoic logic, ethics, and physics, solidifying Stoicism into a comprehensive philosophical system. Chrysippus wrote extensively, reportedly authoring over 700 works, though most are now lost. His innovative work in logic, especially on propositional logic, laid the foundation for future developments in philosophical reasoning.
+    \n\nHe argued that virtue is the only true good and that happiness derives from living according to nature. Chrysippus also emphasized the importance of
+    understanding causation and determinism in achieving a harmonious life, aligning with the Stoic belief in fate and cosmic order. His intellectual rigor
+    and prolific writings reinforced Stoicism’s influence, ensuring its survival and adaptation by later philosophers. Chrysippus’s legacy is that of a
+        philosophical architect, whose work fortified Stoicism as a system of thought dedicated to rationality, moral virtue, and understanding the natural world.</string>
 </resources>

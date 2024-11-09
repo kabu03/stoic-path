@@ -52,7 +52,7 @@
             android:id="@+id/dailyQuoteText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="INSERT DAILY QUOTE HERE"
+            android:text=""
             android:textSize="22sp"
             android:textColor="?attr/colorText"
             android:gravity="center"
@@ -62,7 +62,7 @@
             android:id="@+id/dailyQuoteAuthor"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Author"
+            android:text=""
             android:textSize="18sp"
             android:textColor="?attr/colorText"
             android:gravity="center"
@@ -75,7 +75,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center"
-        android:background="?attr/colorBackground">
+        android:background="?attr/colorBackground"
+        android:padding="8dp">>
 
         <Button
             android:id="@+id/navToDailyQuote"
@@ -83,6 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Daily Quote"
+            android:layout_marginEnd="4dp"
             android:textColor="?attr/buttonTextColor"
             android:backgroundTint="@color/buttonBackground"/>
 
@@ -92,6 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Philosophers"
+            android:layout_marginStart="4dp"
             android:textColor="?attr/buttonTextColor"
             android:backgroundTint="@color/buttonBackground"/>
     </LinearLayout>

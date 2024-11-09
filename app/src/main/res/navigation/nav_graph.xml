@@ -33,6 +33,9 @@
         android:id="@+id/philosopherDetailFragment"
         android:name="com.example.stoicpath.fragments.PhilosopherDetailFragment"
         android:label="Philosopher Detail">
+        <argument
+            android:name="philosopherId"
+            app:argType="integer" />
 
         <action
             android:id="@+id/action_detail_to_philosophers"
