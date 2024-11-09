@@ -24,7 +24,7 @@
 
         <!-- Main Activity Configuration -->
         <activity
-            android:name=".activities.MainActivity"
+            android:name="hu.bme.aut.qh8vdn.stoicpath.activities.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.StoicPath">
             <intent-filter>
@@ -35,11 +35,11 @@
 
         <!-- Notification Service -->
         <service
-            android:name=".services.NotificationService"
+            android:name="hu.bme.aut.qh8vdn.stoicpath.services.NotificationService"
             android:exported="false"
             android:permission="android.permission.BIND_JOB_SERVICE" />
 
-        <receiver android:name=".services.NotificationReceiver"
+        <receiver android:name="hu.bme.aut.qh8vdn.stoicpath.services.NotificationReceiver"
             android:exported="false" />
 
     </application>

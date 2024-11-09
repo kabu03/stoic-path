@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.stoicpath"
+    namespace = "hu.bme.aut.qh8vdn.stoicpath"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.stoicpath"
+        applicationId = "hu.bme.aut.qh8vdn.stoicpath"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

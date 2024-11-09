@@ -5,7 +5,7 @@
     <!-- Philosophers Fragment -->
     <fragment
         android:id="@+id/philosophersFragment"
-        android:name="com.example.stoicpath.fragments.PhilosophersFragment"
+        android:name="hu.bme.aut.qh8vdn.stoicpath.fragments.PhilosophersFragment"
         android:label="Philosophers" >
 
         <action
@@ -20,7 +20,7 @@
     <!-- Daily Quote Fragment -->
     <fragment
         android:id="@+id/dailyQuoteFragment"
-        android:name="com.example.stoicpath.fragments.DailyQuoteFragment"
+        android:name="hu.bme.aut.qh8vdn.stoicpath.fragments.DailyQuoteFragment"
         android:label="Daily Quote">
 
         <action
@@ -31,7 +31,7 @@
     <!-- Philosopher Detail Fragment -->
     <fragment
         android:id="@+id/philosopherDetailFragment"
-        android:name="com.example.stoicpath.fragments.PhilosopherDetailFragment"
+        android:name="hu.bme.aut.qh8vdn.stoicpath.fragments.PhilosopherDetailFragment"
         android:label="Philosopher Detail">
         <argument
             android:name="philosopherId"
